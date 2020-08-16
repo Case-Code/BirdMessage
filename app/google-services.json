@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "484999454381",
+    "firebase_url": "https://bird-s-message.firebaseio.com",
+    "project_id": "bird-s-message",
+    "storage_bucket": "bird-s-message.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:484999454381:android:e843e558a7b46f6c843024",
+        "android_client_info": {
+          "package_name": "com.casecode.birdsmessage"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "484999454381-fibbojhbmdln9k0d24ta6olja2piu3er.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.casecode.birdsmessage",
+            "certificate_hash": "055703589f7e1b171e188a9a8d18e2d2ccd3f062"
+          }
+        },
+        {
+          "client_id": "484999454381-ocr02okpvv1tud23os4cfpuqq69dh6jv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBoxNnm5TZb_E817cPlCtuv-5ONvahKiQw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "484999454381-ocr02okpvv1tud23os4cfpuqq69dh6jv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
