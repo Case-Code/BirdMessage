@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/navigation_chats">
+
+    <fragment
+        android:id="@+id/navigation_friends"
+        android:name="com.casecode.birdsmessage.ui.friends.FriendsFragment"
+        tools:layout="@layout/fragment_friends"
+        android:label="Friends"/>
+    <fragment
+        android:id="@+id/navigation_calls"
+        android:name="com.casecode.birdsmessage.ui.calls.CallsFragment"
+        tools:layout="@layout/fragment_calls"
+        android:label="Calls"/>
+    <fragment
+        android:id="@+id/navigation_chats"
+        android:name="com.casecode.birdsmessage.ui.chats.ChatsFragment"
+        tools:layout="@layout/fragment_chats"
+        android:label="Chats"/>
+    <fragment
+        android:id="@+id/navigation_camera"
+        android:name="com.casecode.birdsmessage.ui.camera.CameraFragment"
+        tools:layout="@layout/fragment_camera"
+        android:label="Camera"/>
+    <fragment
+        android:id="@+id/navigation_settings"
+        android:name="com.casecode.birdsmessage.ui.settings.SettingsFragment"
+        tools:layout="@layout/fragment_settings"
+        android:label="Settings"/>
+</navigation>

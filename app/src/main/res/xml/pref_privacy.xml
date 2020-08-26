@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <SwitchPreferenceCompat
+        android:defaultValue="true"
+        app:key="@string/key_share_online_status"
+        app:summary="@string/summary_share_online_status"
+        app:title="@string/title_share_online_status" />
+    <SwitchPreferenceCompat
+        android:defaultValue="true"
+        app:key="@string/key_send_seen_status"
+        app:summary="@string/summary_send_seen_status"
+        app:title="@string/title_send_seen_status" />
+    <SwitchPreferenceCompat
+        android:defaultValue="true"
+        app:key="@string/key_allow_friend_suggestions"
+        app:summary="@string/summary_allow_friend_suggestions"
+        app:title="@string/title_allow_friend_suggestions" />
+    <ListPreference
+        android:defaultValue="1"
+        android:entries="@array/who_can_add_me_to_groups_entries"
+        android:entryValues="@array/who_can_add_me_to_groups_values"
+        android:key="@string/key_control_who_can_add_you_to_groups"
+        android:title="@string/title_control_who_can_add_you_to_groups" />
+    <Preference
+        android:fragment="com.casecode.birdsmessage.ui.settings.SettingsFragment$SettingPreferenceBlockListFragment"
+        android:title="@string/title_block_list" />
+    <Preference
+        android:fragment="com.casecode.birdsmessage.ui.settings.SettingsFragment$SettingPreferenceHiddenChatsFragment"
+        android:title="@string/title_hidden_chats" />
+    <SwitchPreferenceCompat
+        android:defaultValue="false"
+        app:key="@string/key_trusted_contacts"
+        app:summary="@string/summary_trusted_contacts"
+        app:title="@string/title_trusted_contacts" />
+    <SwitchPreferenceCompat
+        android:defaultValue="true"
+        app:key="@string/key_show_your_photo"
+        app:summary="@string/summary_show_your_photo"
+        app:title="@string/title_show_your_photo" />
+    <SwitchPreferenceCompat
+        android:defaultValue="true"
+        app:key="@string/key_share_your_birth_date"
+        app:summary="@string/summary_share_your_birth_date"
+        app:title="@string/title_share_your_birth_date" />
+    <SwitchPreferenceCompat
+        android:defaultValue="true"
+        app:key="@string/key_user_peer_to_peer"
+        app:summary="@string/summary_user_peer_to_peer"
+        app:title="@string/title_user_peer_to_peer" />
+    <Preference
+        android:fragment="com.casecode.birdsmessage.ui.settings.SettingsFragment$SettingPreferencePersonalDataFragment"
+        android:title="@string/title_personal_data" />
+    <Preference android:title="@string/title_privacy_policy">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="@string/url_privacy_policy" />
+    </Preference>
+</PreferenceScreen>

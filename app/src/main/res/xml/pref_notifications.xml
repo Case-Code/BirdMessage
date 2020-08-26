@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="@string/key_show_message_notification"
+        android:title="@string/title_show_message_notification" />
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="@string/key_show_group_notification"
+        android:title="@string/title_show_group_notification" />
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="@string/key_show_communities_notification"
+        android:title="@string/title_show_communities_notification" />
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="@string/key_show_service_notification"
+        android:summary="@string/summary_show_service_notification"
+        android:title="@string/title_show_service_notification" />
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="@string/key_get_birthday_notification"
+        android:summary="@string/summary_get_birthday_notification"
+        android:title="@string/title_get_birthday_notification" />
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="@string/key_show_birthday_reminders"
+        android:summary="@string/summary_show_birthday_reminders"
+        android:title="@string/title_show_birthday_reminders" />
+    <!--    <RingtonePreference-->
+    <!--        android:defaultValue="content://settings/system/notification_sound"-->
+    <!--        android:key="@string/key_notification_sounds"-->
+    <!--        android:ringtoneType="notification"-->
+    <!--        android:title="@string/title_notification_sounds" />-->
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="@string/key_show_message_preview"
+        android:title="@string/title_show_message_preview" />
+    <PreferenceCategory android:title="@string/title_in_app_notifications">
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="@string/key_in_app_vibrate"
+            android:title="@string/title_in_app_vibrate" />
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="@string/key_in_app_sounds"
+            android:title="@string/title_in_app_sounds" />
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="@string/key_show_in_app_banner"
+            android:title="@string/title_show_in_app_banner" />
+    </PreferenceCategory>
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="@string/key_contact_joined_birds_message"
+        android:summary="@string/summary_contact_joined_birds_message"
+        android:title="@string/title_contact_joined_birds_message" />
+    android:title="Switch preference" />
+</PreferenceScreen>

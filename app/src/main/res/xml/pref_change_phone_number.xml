@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="My new number is:">
+        <ListPreference
+            android:defaultValue="@string/default_country"
+            android:dialogTitle="@string/dialog_country"
+            android:entries="@array/country_entries"
+            android:entryValues="@array/country_values"
+            android:key="@string/key_country"
+            android:title="@string/title_country" />
+        <EditTextPreference
+            android:key="@string/key_phone_number"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:summary="@string/summary_phone_number"
+            android:title="@string/title_phone_number" />
+    </PreferenceCategory>
+</PreferenceScreen>

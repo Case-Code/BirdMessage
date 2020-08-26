@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditTextPreference
+        android:key="@string/key_hidden_chats"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:summary="@string/summary_hidden_chats"
+        android:title="@string/title_hidden_chats" />
+    <EditTextPreference
+        android:key="@string/key_reset_pin"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:summary="@string/summary_reset_pin"
+        android:title="@string/title_reset_pin" />
+    <Preference
+        android:summary="Learn more about Hidden Chats and how to manage them."
+        android:title="Learn More">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="@string/url_reset_pin" />
+    </Preference>
+
+</PreferenceScreen>

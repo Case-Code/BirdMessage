@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ListPreference
+        android:defaultValue="@string/default_photo_quality"
+        android:dialogTitle="@string/dialog_photo_quality"
+        android:entries="@array/photo_quality_entries"
+        android:entryValues="@array/photo_quality_values"
+        android:key="@string/key_photo_quality"
+        android:summary="@string/summary_photo_quality"
+        android:title="@string/title_photo_quality" />
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="@string/key_save_to_gallery"
+        android:summary="@string/summary_save_to_gallery"
+        android:title="@string/title_save_to_gallery" />
+    <ListPreference
+        android:defaultValue="@string/default_keep_media"
+        android:dialogTitle="@string/dialog_keep_media"
+        android:entries="@array/keep_media_entries"
+        android:entryValues="@array/keep_media_values"
+        android:key="@string/key_keep_media"
+        android:summary="@string/summary_keep_media"
+        android:title="@string/title_keep_media" />
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="@string/key_auto_download_media"
+        android:summary="@string/summary_auto_download_media"
+        android:title="@string/title_auto_download_media" />
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="@string/key_auto_play_videos"
+        android:summary="@string/summary_auto_play_videos"
+        android:title="@string/title_auto_play_videos" />
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="@string/key_restrict_data_usage"
+        android:summary="@string/summary_restrict_data_usage"
+        android:title="@string/title_restrict_data_usage" />
+</PreferenceScreen>

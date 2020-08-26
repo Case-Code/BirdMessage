@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <Preference
+        android:fragment="com.casecode.birdsmessage.ui.settings.SettingsFragment$SettingPreferenceAccountFragment"
+        android:title="@string/title_account" />
+
+    <Preference
+        android:fragment="com.casecode.birdsmessage.ui.settings.SettingsFragment$SettingPreferencePrivacyFragment"
+        android:title="@string/title_privacy" />
+
+    <Preference
+        android:fragment="com.casecode.birdsmessage.ui.settings.SettingsFragment$SettingPreferenceNotificationsFragment"
+        android:title="@string/title_notifications" />
+
+    <Preference
+        android:fragment="com.casecode.birdsmessage.ui.settings.SettingsFragment$SettingPreferenceCallAndMessageFragment"
+        android:title="@string/title_call_and_message" />
+
+    <Preference
+        android:fragment="com.casecode.birdsmessage.ui.settings.SettingsFragment$SettingPreferenceMediaFragment"
+        android:title="@string/title_media" />
+
+    <PreferenceCategory android:title="Appearance">
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="key_dark_mode"
+            android:title="Dark Mode" />
+
+        <Preference android:title="Change default background" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Restore Defaults">
+        <Preference android:title="Restore Defaults" />
+    </PreferenceCategory>
+
+
+</PreferenceScreen>

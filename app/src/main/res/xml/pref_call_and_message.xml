@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="@string/key_birds_message_in_calls"
+        android:summary="@string/summary_birds_message_in_calls"
+        android:title="@string/title_birds_message_in_calls" />
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="@string/key_receive_business_messages"
+        android:summary="@string/summary_receive_business_messages"
+        android:title="@string/title_receive_business_messages" />
+    <Preference android:title="@string/title_clear_message_history" />
+    <ListPreference
+        android:defaultValue="@string/default_message_translation"
+        android:dialogTitle="@string/dialog_message_translation"
+        android:entries="@array/message_translation_entries"
+        android:entryValues="@array/message_translation_values"
+        android:key="@string/key_message_translation"
+        android:title="@string/title_message_translation" />
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="@string/key_auto_convert_burmese"
+        android:summary="@string/summary_auto_convert_burmese"
+        android:title="@string/title_auto_convert_burmese" />
+</PreferenceScreen>

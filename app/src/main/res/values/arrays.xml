@@ -1,0 +1,90 @@
+<resources>
+    <!-- Reply Preference -->
+    <string-array name="reply_entries">
+        <item>Reply</item>
+        <item>Reply to all</item>
+    </string-array>
+
+    <string-array name="reply_values">
+        <item>reply</item>
+        <item>reply_all</item>
+    </string-array>
+
+    <!-- Auto Backup Preference -->
+    <string-array name="auto_backup_entries">
+        <item>Daily</item>
+        <item>Weekly</item>
+        <item>Monthly</item>
+        <item>Off</item>
+    </string-array>
+
+    <string-array name="auto_backup_values">
+        <item>daily</item>
+        <item>weekly</item>
+        <item>monthly</item>
+        <item>@string/default_auto_backup</item>
+    </string-array>
+
+    <!-- Country Preference -->
+    <string-array name="country_entries">
+        <item>Egypt(+20)</item>
+        <item>Turkey(+90)</item>
+        <item>United States(+1)</item>
+    </string-array>
+
+    <string-array name="country_values">
+        <item>egypt</item>
+        <item>turkey</item>
+        <item>united_states</item>
+    </string-array>
+
+    <!-- Control Who Can Add You To Groups Preference -->
+    <string-array name="who_can_add_me_to_groups_entries">
+        <item>Everyone</item>
+        <item>My Contacts</item>
+    </string-array>
+
+    <string-array name="who_can_add_me_to_groups_values">
+        <item>everyone</item>
+        <item>my_contacts</item>
+    </string-array>
+
+    <!-- Message Translation Preference -->
+    <string-array name="message_translation_entries">
+        <item>English</item>
+        <item>العربية</item>
+    </string-array>
+
+    <string-array name="message_translation_values">
+        <item>english</item>
+        <item>arabic</item>
+    </string-array>
+
+    <!-- Photo Quality Preference -->
+    <string-array name="photo_quality_entries">
+        <item>Compressed (~180 KB)</item>
+        <item>Good (~250 KB)</item>
+        <item>Excellent (~650 KB)</item>
+    </string-array>
+
+    <string-array name="photo_quality_values">
+        <item>compressed</item>
+        <item>good</item>
+        <item>excellent</item>
+    </string-array>
+
+    <!-- Keep Media Preference -->
+    <string-array name="keep_media_entries">
+        <item>1 week</item>
+        <item>1 month</item>
+        <item>1 year</item>
+        <item>Forever</item>
+    </string-array>
+
+    <string-array name="keep_media_values">
+        <item>one_week</item>
+        <item>one_month</item>
+        <item>one_year</item>
+        <item>forever</item>
+    </string-array>
+</resources>

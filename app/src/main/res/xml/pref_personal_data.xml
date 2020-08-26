@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="@string/key_collect_analytics"
+        android:summary="@string/summary_collect_analytics"
+        android:title="@string/title_collect_analytics" />
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="@string/key_allow_content_personalization"
+        android:summary="@string/summary_allow_content_personalization"
+        android:title="@string/title_allow_content_personalization" />
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="@string/key_allow_accurate_location_based_services"
+        android:summary="@string/summary_allow_accurate_location_based_services"
+        android:title="@string/title_allow_accurate_location_based_services" />
+    <Preference
+        android:fragment="com.casecode.birdsmessage.ui.settings.SettingsFragment$SettingPreferenceRequestYourDataFragment"
+        android:title="@string/title_request_your_data" />
+    <Preference
+        android:fragment="com.casecode.birdsmessage.ui.settings.SettingsFragment$SettingPreferenceDeleteYourDateFragment"
+        android:title="@string/title_delete_your_date" />
+</PreferenceScreen>

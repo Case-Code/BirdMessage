@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <MultiSelectListPreference
+        android:entries="@array/reply_entries"
+        android:entryValues="@array/reply_values"
+        android:key="multi_select_list_preference_1"
+        android:title="Multi select list preference" />
+</PreferenceScreen>

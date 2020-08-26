@@ -1,3 +1,254 @@
 <resources>
     <string name="app_name">Bird\'s Message</string>
+
+    <!-- Titles -->
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+    <string name="title_chats">Chats</string>
+    <string name="title_settings">Settings</string>
+
+    <!-- Preference Titles -->
+    <string name="title_account">Account</string>
+    <string name="title_privacy">Privacy</string>
+    <string name="title_call_and_message">Call and Message</string>
+    <string name="title_media">Media</string>
+    <string name="title_backup">Backup</string>
+    <string name="title_purchases">Purchases</string>
+    <string name="title_desktop_and_tablets">Desktop and Tablets</string>
+    <string name="title_change_phone_number">Change Phone Number</string>
+    <string name="title_deactivate_account">Deactivate Account</string>
+
+    <!-- Keep Media Preferences -->
+    <string name="title_back_up_now">Back Up Now</string>
+
+    <!-- Auto Backup Preferences -->
+    <string name="default_auto_backup">off</string>
+    <string name="key_auto_backup">key_auto_backup</string>
+    <string name="summary_auto_backup">All media files will be automatically deleted after the selected period of time.</string>
+    <string name="title_auto_backup">Auto Backup</string>
+
+    <!-- Restore Purchases Preferences -->
+    <string name="summary_restore_purchases">Restore Bird\'s Message Out subscriptions and all your sticker packs to this device. We recommend you connect to Wi-Fi.</string>
+    <string name="title_restore_purchases">Restore Purchases</string>
+
+    <!-- New Phone Number Preferences -->
+    <string name="summary_new_phone_number">You can change your number on the same phone without losing any data.</string>
+    <string name="title_new_phone_number">New Phone Number</string>
+
+    <!-- New Phone Number and New Device Preferences -->
+    <string name="summary_new_phone_number_and_new_device">If you have both a new number and a new device, first back up your data and then change your phone number on your old phone.</string>
+    <string name="title_new_phone_number_and_new_device">New Phone Number and New Device</string>
+
+    <!-- Country Preferences -->
+    <string name="default_country">egypt</string>
+    <string name="dialog_country">Choose Country</string>
+    <string name="key_country">key_country</string>
+    <string name="title_country">Country</string>
+
+    <!-- Phone Number Preferences -->
+    <string name="key_phone_number">key_phone_number</string>
+    <string name="summary_phone_number">Make sure this number can receive SMS or calls</string>
+    <string name="summary_to_deactivate">To deactivate, enter your number</string>
+    <string name="title_phone_number">Phone Number</string>
+
+    <!-- Share 'Online' Status Preferences -->
+    <string name="key_share_online_status">key_share_online_status</string>
+    <string name="summary_share_online_status">You can change this setting once every 24 hours.</string>
+    <string name="title_share_online_status">Share \'Online\' Status</string>
+
+    <!-- Send 'Seen' Status Preferences -->
+    <string name="key_send_seen_status">key_send_seen_status</string>
+    <string name="summary_send_seen_status">Turning this setting off will hide others \'Seen\' status from you.</string>
+    <string name="title_send_seen_status">Send \'Seen\' Status</string>
+
+    <!-- Allow Friend Suggestions Preferences -->
+    <string name="key_allow_friend_suggestions">key_allow_friend_suggestions</string>
+    <string name="summary_allow_friend_suggestions">Allowed to suggest you to people who may know you.</string>
+    <string name="title_allow_friend_suggestions">Allow Friend Suggestions</string>
+
+    <!-- Control Who Can Add You To Groups Preferences -->
+    <string name="key_control_who_can_add_you_to_groups">key_control_who_can_add_you_to_groups</string>
+    <string name="title_control_who_can_add_you_to_groups">Control Who Can Add You To Groups</string>
+
+    <!-- Block List Preferences -->
+    <string name="title_block_list">Block List</string>
+
+    <!-- Hidden Chats Preferences -->
+    <string name="key_hidden_chats">key_hidden_chats</string>
+    <string name="summary_hidden_chats">Change your Hidden Chats PIN</string>
+    <string name="title_hidden_chats">Hidden Chats</string>
+
+    <!-- Reset PIN Preferences -->
+    <string name="key_reset_pin">key_reset_pin</string>
+    <string name="summary_reset_pin">Reset your PIN. All existing Hidden Chats will be deleted</string>
+    <string name="title_reset_pin">Reset PIN</string>
+    <string name="url_reset_pin">https://www.google.com/</string>
+
+    <!-- Trusted Contacts Preferences -->
+    <string name="key_trusted_contacts">key_trusted_contacts</string>
+    <string name="summary_trusted_contacts">True this setting on take extra security management steps</string>
+    <string name="title_trusted_contacts">Trusted Contacts</string>
+
+    <!-- Show Your Photo Preferences -->
+    <string name="key_show_your_photo">key_show_your_photo</string>
+    <string name="summary_show_your_photo">Let users who aren\'t in your contacts see your photo.</string>
+    <string name="title_show_your_photo">Show Your Photo</string>
+
+    <!-- Share your birth date Preferences -->
+    <string name="key_share_your_birth_date">key_show_your_photo</string>
+    <string name="summary_share_your_birth_date">Allow friends to be notified on your birthday</string>
+    <string name="title_share_your_birth_date">Share your birth date</string>
+
+    <!-- User Peer-to-Peer Preferences -->
+    <string name="key_user_peer_to_peer">key_show_your_photo</string>
+    <string name="summary_user_peer_to_peer">Improves call quality, but reveals your IP address to other in the call.</string>
+    <string name="title_user_peer_to_peer">User Peer-to-Peer</string>
+
+    <!-- Personal Data Preferences -->
+    <string name="title_personal_data">Personal Data</string>
+
+    <!-- Privacy Policy Preferences -->
+    <string name="title_privacy_policy">Privacy Policy</string>
+    <string name="url_privacy_policy">https://www.google.com/</string>
+
+    <!-- Collect Analytics Preferences -->
+    <string name="key_collect_analytics">key_collect_analytics</string>
+    <string name="summary_collect_analytics">We collect activity data to improve our product and performance. This data won\'t be used for other purposes. Learn more</string>
+    <string name="title_collect_analytics">Collect Analytics</string>
+
+    <!-- Allow Content Personalization Preferences -->
+    <string name="key_allow_content_personalization">key_allow_content_personalization</string>
+    <string name="summary_allow_content_personalization">Content displayed in the app will be based on your interests to enhance your experience. Learn more</string>
+    <string name="title_allow_content_personalization">Allow Content Personalization</string>
+
+    <!-- Allow Accurate Location-Based Services Preferences -->
+    <string name="key_allow_accurate_location_based_services">key_allow_content_personalization</string>
+    <string name="summary_allow_accurate_location_based_services">Accurate location will be used by us and our trusted partners to provide you localized services. Learn more</string>
+    <string name="title_allow_accurate_location_based_services">Allow Accurate Location-Based Services</string>
+
+    <!-- Request Your Data Preferences -->
+    <string name="summary_request_your_data">You can export and download your Bird\'s Message data. This does not include any chat content as all chats are protected by end-to-end encryption, and content is not stored on Bird\'s Message servers. Data will be send to the Bird\'s Message app on your mobile device. Your data wll not be delivered if you deactivate your account before it is received. Note: Downloading your data does not delete it from Bird\'s Message servers. Learn how Bird\'s Message processes your data requests</string>
+    <string name="title_request_your_data">Request Your Data</string>
+    <string name="title_continue">Continue</string>
+
+    <!-- Delete Your Date Preferences -->
+    <string name="summary_delete_your_date">You are in completed control of your personal data, and can delete it from Bird\'s Message servers at any time. Your call and chat history will not be deleted, and you will be able to continue using the app. Once your data is deleted, a conformation message will be sent to you device. Please note that deleted data cannot be restored. Learn more about data deletion</string>
+    <string name="title_delete_your_date">Delete Your Date</string>
+    <string name="title_delete_date">Delete Date</string>
+
+    <!-- Show Message Notification Preferences -->
+    <string name="key_show_message_notification">key_show_message_notification</string>
+    <string name="title_show_message_notification">Show Message Notification</string>
+
+    <!-- Show Group Notification Preferences -->
+    <string name="key_show_group_notification">key_show_group_notification</string>
+    <string name="title_show_group_notification">Show Group Notification</string>
+
+    <!-- Show Communities Notification Preferences -->
+    <string name="key_show_communities_notification">key_show_communities_notification</string>
+    <string name="title_show_communities_notification">Show Communities Notification</string>
+
+    <!-- Show Service Notification Preferences -->
+    <string name="key_show_service_notification">key_show_service_notification</string>
+    <string name="summary_show_service_notification">Service notifications include updates from Business and Bird\'s Message</string>
+    <string name="title_show_service_notification">Show Service Notification</string>
+
+    <!-- Get Birthday notification Preferences -->
+    <string name="key_get_birthday_notification">key_get_birthday_notification</string>
+    <string name="summary_get_birthday_notification">Receive birthday notifications on your phone\'s notification bar</string>
+    <string name="title_get_birthday_notification">Get Birthday notification</string>
+
+    <!-- Show birthday Reminders Preferences -->
+    <string name="key_show_birthday_reminders">key_show_birthday_reminders</string>
+    <string name="summary_show_birthday_reminders">See reminders on chats list and inside 1-on-1 chats</string>
+    <string name="title_show_birthday_reminders">Show birthday Reminders</string>
+
+    <!-- Notification Sounds Preferences -->
+    <string name="key_notification_sounds">key_notification_sounds</string>
+    <string name="title_notification_sounds">Notification Sounds</string>
+
+    <!-- Show Message Preview Preferences -->
+    <string name="key_show_message_preview">key_show_message_preview</string>
+    <string name="title_show_message_preview">Show Message Preview</string>
+
+    <!-- In-App Notifications Preferences -->
+    <string name="title_in_app_notifications">In-App Notifications</string>
+
+    <!-- In-App Vibrate Preferences -->
+    <string name="key_in_app_vibrate">key_in_app_vibrate</string>
+    <string name="title_in_app_vibrate">In-App Vibrate</string>
+
+    <!-- In-App Sounds Preferences -->
+    <string name="key_in_app_sounds">key_in_app_sounds</string>
+    <string name="title_in_app_sounds">In-App Sounds</string>
+
+    <!-- Show In-App Banner Preferences -->
+    <string name="key_show_in_app_banner">key_show_in_app_banner</string>
+    <string name="title_show_in_app_banner">Show In-App Banner</string>
+
+    <!-- Contact Joined Bird's Message Preferences -->
+    <string name="key_contact_joined_birds_message">key_contact_joined_birds_message</string>
+    <string name="summary_contact_joined_birds_message">Improves call quality, but reveals your IP address to other in the call.</string>
+    <string name="title_contact_joined_birds_message">Contact Joined Bird\'s Message</string>
+
+    <!-- Bird's Message In Calls Preferences -->
+    <string name="key_birds_message_in_calls">key_birds_message_in_calls</string>
+    <string name="summary_birds_message_in_calls">Receive regular incoming calls with Bird\'s Message, when possible. Learn More.</string>
+    <string name="title_birds_message_in_calls">Bird\'s Message In Calls</string>
+
+    <!-- Receive Business Messages Preferences -->
+    <string name="key_receive_business_messages">key_receive_business_messages</string>
+    <string name="summary_receive_business_messages">Allow businesses to message you via Bird\'s Message</string>
+    <string name="title_receive_business_messages">Receive Business Messages</string>
+
+    <!-- Clear Message History Preferences -->
+    <string name="title_clear_message_history">Clear Message History</string>
+
+    <!-- Message Translation Preferences -->
+    <string name="default_message_translation">english</string>
+    <string name="dialog_message_translation">Select a Language</string>
+    <string name="key_message_translation">key_message_translation</string>
+    <string name="title_message_translation">Message Translation</string>
+
+    <!-- Auto-convert Burmese Preferences -->
+    <string name="key_auto_convert_burmese">key_auto_convert_burmese</string>
+    <string name="summary_auto_convert_burmese">Convert all messages based on device support</string>
+    <string name="title_auto_convert_burmese">Auto-convert Burmese</string>
+
+    <!-- Photo Quality Preferences -->
+    <string name="default_photo_quality">good</string>
+    <string name="dialog_photo_quality">Choose the quality of the photos you send</string>
+    <string name="key_photo_quality">key_photo_quality</string>
+    <string name="summary_photo_quality">Choose the quality of the photos you send.</string>
+    <string name="title_photo_quality">Photo Quality</string>
+
+    <!-- Save to Gallery Preferences -->
+    <string name="key_save_to_gallery">key_save_to_gallery</string>
+    <string name="summary_save_to_gallery">Photo messages will be automatically saved to your camera roll.</string>
+    <string name="title_save_to_gallery">Save to Gallery</string>
+
+    <!-- Keep Media Preferences -->
+    <string name="default_keep_media">forever</string>
+    <string name="dialog_keep_media">Delete media older than the selected time period to free up the amount of storage space displayed.</string>
+    <string name="key_keep_media">key_keep_media</string>
+    <string name="summary_keep_media">All media files will be automatically deleted after the selected period of time.</string>
+    <string name="title_keep_media">Keep Media</string>
+
+    <!-- Auto Download Media Preferences -->
+    <string name="key_auto_download_media">key_auto_download_media</string>
+    <string name="summary_auto_download_media">Allow automatic download of photos, GIFs and videos on cellular networks.</string>
+    <string name="title_auto_download_media">Auto Download Media</string>
+
+    <!-- Auto Play Videos Preferences -->
+    <string name="key_auto_play_videos">key_auto_play_videos</string>
+    <string name="summary_auto_play_videos">Allow videos to play automatically once downloaded.</string>
+    <string name="title_auto_play_videos">Auto Play Videos </string>
+
+    <!-- Restrict Data Usage Preferences -->
+    <string name="key_restrict_data_usage">key_restrict_data_usage</string>
+    <string name="summary_restrict_data_usage">Bird\'s Message will optimize for minimal usage on mobile networks.</string>
+    <string name="title_restrict_data_usage">Restrict Data Usage</string>
+
 </resources>

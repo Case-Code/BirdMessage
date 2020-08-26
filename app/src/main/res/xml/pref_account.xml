@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="Backup">
+
+        <Preference android:title="@string/title_back_up_now" />
+
+        <ListPreference
+            android:defaultValue="@string/default_auto_backup"
+            android:entries="@array/auto_backup_entries"
+            android:entryValues="@array/auto_backup_values"
+            android:key="@string/key_auto_backup"
+            android:title="@string/title_auto_backup" />
+
+
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/title_purchases">
+        <Preference
+            android:summary="@string/summary_restore_purchases"
+            android:title="@string/title_restore_purchases" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:enabled="false"
+        app:title="@string/title_desktop_and_tablets">
+
+    </PreferenceCategory>
+
+
+    <PreferenceCategory app:title="@string/title_change_phone_number">
+        <Preference
+            android:fragment="com.casecode.birdsmessage.ui.settings.SettingsFragment$SettingPreferenceChangePhoneNumberFragment"
+            android:summary="@string/summary_new_phone_number"
+            android:title="@string/title_new_phone_number" />
+        <Preference
+            android:fragment="com.casecode.birdsmessage.ui.settings.SettingsFragment$SettingPreferenceChangePhoneNumberFragment"
+            android:summary="@string/summary_new_phone_number_and_new_device"
+            android:title="@string/title_new_phone_number_and_new_device" />
+    </PreferenceCategory>
+
+
+    <PreferenceCategory app:title="@string/title_deactivate_account">
+        <EditTextPreference
+            android:key="@string/key_phone_number"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:summary="@string/summary_to_deactivate"
+            android:title="@string/title_phone_number" />
+        <Preference android:title="Deactivate Account" />
+    </PreferenceCategory>
+
+</PreferenceScreen>
